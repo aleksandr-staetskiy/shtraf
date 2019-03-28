@@ -1,0 +1,49 @@
+.penalty {
+    display: block;
+
+    &__title {
+      text-align: center;
+      margin-top: 50px;
+      color: $title-color;  
+    }
+
+    &__pay-link {
+        border-bottom: 1px dashed $links-col;
+        margin-left: 25px;
+    }
+
+    &-block {
+        margin-bottom: 70px;
+        border-bottom: 1px solid #cedae4;
+    }
+
+    &-block__title {
+        padding-bottom: 30px;
+        font-size: 24px;
+        color: $title-color;
+    }
+
+    &-block_descr {
+        font-size: 15px;
+    }
+
+    &-block__accent {
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #d30531; 
+    }
+
+    &-block__link {
+        display: block;
+        width: 180px;
+        margin-top: 38px; 
+        font-size: 24px;
+        border-bottom: 1px solid $links-col;
+    }
+
+    @media (max-width: 540px) {
+        & {
+            display: none;
+        }
+      }
+}

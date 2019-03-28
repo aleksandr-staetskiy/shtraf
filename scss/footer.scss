@@ -1,0 +1,50 @@
+.footer {
+    background-color: #e6ecf1;
+    padding-top: 50px;
+
+    &__lock {
+        display: block;
+    }
+
+    &__txt {
+        display: block;
+    }
+
+    &__link {
+        display: block;
+    }
+
+    @media (max-width: 540px) {
+
+        & {
+            font-size: 13px;
+        }
+        &__link {
+            display: none;
+        }
+
+        &__number {
+            display: none;
+        }
+
+        &__firma {
+            display: none;
+        }
+
+        &__call {
+            display: none!important;
+        }
+
+        &__txt {
+            text-align: center;
+            order: 2;
+        }
+        &__lock {
+            display: none;
+        }
+        &__name {
+            margin-left: 20px;    
+            text-align: center;
+        }
+      }
+}

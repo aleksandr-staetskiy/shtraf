@@ -1,0 +1,26 @@
+.partners {
+    margin-bottom: 50px;
+    
+    &__title {
+        margin-bottom: 45px;
+    }
+
+    &__name {
+        display: block;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    &__img-wrapper {
+        height: 90px;
+        margin-bottom: 10px;
+    }
+
+    @media (max-width: 540px) {
+        &__title {
+            margin-top: 30px;
+            font-weight: 700;
+        }
+      }
+
+}

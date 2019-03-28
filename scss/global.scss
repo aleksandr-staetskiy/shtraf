@@ -1,0 +1,15 @@
+body {
+  font-family: 'PT Sans Caption', sans-serif;
+  color: #322e2f;
+  font-size: 1;
+}
+
+a {
+  color: $links-col;
+  font-family: "PT Sans", sans-serif;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+}
